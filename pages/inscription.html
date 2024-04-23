@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Inscription</title>
+    <style>
+        form, fieldset {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        label,
+        input,
+        textarea, fieldset {
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cours HTML - CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Accueil</a></li>
+                <li><a href="./lessons/html-text.html">Leçon 1 : Html (text)</a></li>
+                <li><a href=".lessons/html-liens.html">Leçon 2 : Html (liens)</a></li>
+                <li><a href="./tp/cv.html">CV</a></li>
+                <li><a href="veille-tech.html">veille tech</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="./lessons/form.html">formulaire</a></li>
+                <li><a href="inscription.html">s'inscrire</a></li>
+                <li><a href="connexion.html">se connecter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Inscription</h1>
+    <form action="" method="post">
+        <h4 id="info">Renseignez ces informations</h4>
+
+        <fieldset>
+            <label for="pseudo">Votre pseudo :</label>
+            <input type="text" name="pseudonyme" id="pseudo">
+            <label for="name">Votre prénom :</label>
+            <input type="text" name="name" id="prenom">
+            <label for="password">Votre mot de passe :</label>
+            <input type="password" name="motDePasse" id="mdp">
+            <label for="email">Votre email :</label>
+            <input type="email" name="mail" id="mail">
+        </fieldset>
+
+        <fieldset>
+            <label for="desc">Un commentaire ? </label>
+            <textarea name="description" id="desc" cols="50" rows="10"></textarea>
+            <div>
+                <input type="checkbox" id="remember" name="remember" checked />
+                <label for="remember">Se souvenir de moi </label>
+            </div>
+        </fieldset>
+        <button class="btn" id="submit" type="submit">S'inscrire</button>
+    </form>
+
+    <form action="connexion.html">
+        <input class="btn" type="submit" value="Se connecter"/>
+    </form>
+</body>
+
+</html>

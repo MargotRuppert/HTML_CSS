@@ -108,3 +108,21 @@ h3 {
 strong {
     color: rgb(46, 59, 23);
 }
+
+#info {
+    margin-bottom: 20px;
+}
+
+#remember{
+    margin-right: 10px;
+}
+
+.btn {
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: 65px;
+}
+
+#submit {
+    margin-top: 10px;
+}
