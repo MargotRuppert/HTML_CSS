@@ -104,3 +104,7 @@ h3 {
     text-decoration: underline dotted;
     color: lightgreen;
 }
+
+strong {
+    color: rgb(46, 59, 23);
+}
