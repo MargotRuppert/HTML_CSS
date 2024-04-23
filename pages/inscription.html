@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML - Inscription</title>
     <style>
-        form, fieldset {
+        form,
+        fieldset {
             width: 80%;
             margin: auto;
             display: flex;
@@ -15,7 +16,8 @@
 
         label,
         input,
-        textarea, fieldset {
+        textarea,
+        fieldset {
             margin-bottom: 10px;
         }
     </style>
@@ -53,6 +55,8 @@
             <input type="password" name="motDePasse" id="mdp">
             <label for="email">Votre email :</label>
             <input type="email" name="mail" id="mail">
+            <label for="birth">>Date de naissance:</label>
+            <input type="date" id="start" name="trip-start" value="2024-04-23" min="1930-01-01" max="2024-12-31" />
         </fieldset>
 
         <fieldset>
@@ -67,7 +71,7 @@
     </form>
 
     <form action="connexion.html">
-        <input class="btn" type="submit" value="Se connecter"/>
+        <input class="btn" type="submit" value="Se connecter" />
     </form>
 </body>
 
