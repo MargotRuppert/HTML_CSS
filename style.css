@@ -183,3 +183,39 @@ h1, h4, h2 {
 .container p{
     padding: 15px;
 }
+
+.tp-css{
+    background-color: pink;
+}
+
+@keyframes pedro{
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.tp-css img {
+    animation-name: pedro;
+    animation-iteration-count: infinite ;
+    animation-duration: 3s;
+    width: 400px;
+}
+
+.tp {
+    background-color: lightblue;
+    animation: test 2s  infinite;
+    animation-direction: alternate;
+}
+
+@keyframes test {
+    from {
+        margin-left: 100%;
+        width: 100%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+}
