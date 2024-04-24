@@ -9,8 +9,9 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-image:url("img/bg\,f8f8f8-flat\,750x\,075\,f-pad\,750x1000\,f8f8f8.jpg");
+    color: #fff;
+    background-attachment: fixed;
 }
 
 header {
@@ -125,4 +126,12 @@ strong {
 
 #submit {
     margin-top: 10px;
+}
+
+p, li {
+    background-image: linear-gradient( to left, rgb(129, 129, 243),purple);
+}
+
+a{
+    color: #fff;
 }
