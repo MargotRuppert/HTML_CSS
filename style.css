@@ -238,6 +238,7 @@ h1, h4, h2 {
     background-color: rgb(171, 212, 198);
     border: solid black 2px;
     border-collapse: collapse;
+    margin-top: 20px;
 }
 
 #table2 td{
