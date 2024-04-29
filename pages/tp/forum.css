@@ -1,0 +1,38 @@
+.container-topic{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.img-topic img {
+    width: 75px;
+    border-radius: 50%;
+
+}
+
+.img-topic{
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+}
+
+.main-topic{
+    display: flex;
+    flex-direction: row;
+}
+
+.element-topic{
+    display: flex;
+    flex-direction: column;
+}
+
+.view, .date{
+
+    border: solid rgb(145, 145, 145) 1px;
+}
+
+.container-topic div{
+    text-align: center;
+}
