@@ -129,7 +129,7 @@ h1, h4, h2 {
 }
 
 
-#home{
+.home{
     display: flex;
     justify-content: center;
 }
@@ -167,7 +167,7 @@ h1, h4, h2 {
     
 }
 
-#card3, #card4{
+#card3, #card4, #card5, #card6, #card7, #card8, #card9, #card10{
     background: linear-gradient(90deg, rgb(2, 77, 238) 0%, rgb(38, 171, 233) 35%, rgb(0, 255, 21) 78%);
 }
 
