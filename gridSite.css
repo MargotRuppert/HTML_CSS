@@ -2,11 +2,15 @@ h1 {
     text-align: center;
 }
 
-nav ul {
+nav ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    list-style: none;
-    text-align: center;
+}
+
+nav{
+    width: 50%;
+    position: relative;
+    left: 25%;
 }
 
 .container {
