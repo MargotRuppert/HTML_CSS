@@ -67,6 +67,32 @@ footer {
     rotate: 25deg;
 } */
 
+.pedro{
+    background-color: black;
+    width: 500px;
+    height: 300px;
+}
+
+.img{
+    margin-left: 50px;
+    height: 300px;
+    transition-property: scale;
+    transition-duration: 1s;
+    animation: pedro 3s infinite linear;
+}
+
+@keyframes pedro {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.img:hover {
+    scale: 110%;
+}
 
 .animation {
     width: 100px;
@@ -78,16 +104,19 @@ footer {
     animation-iteration-count: infinite;
 }
 
-
 @keyframes animation {
     0%   {background-color:palegreen; left:0px; top:0px;
     }
-    25%  {background-color:palegoldenrod; left:200px; top:0px;
+    20%  {background-color:palegoldenrod; left:100px; top:0px;
     }
-    50%  {background-color: paleturquoise; left:200px; top:200px;
+    40%  {background-color: paleturquoise; left:100px; top:100px;
     }
-    75%  {background-color:palevioletred; left:0px; top:200px;
+    50%  {background-color: paleturquoise; left:200px; top:300px;
+    }
+    60%  {background-color:palevioletred; left:0px; top:300px;
+    }
+    80%  {background-color:palevioletred; left:0px; top:100px;
     }
     100% {background-color:palegreen; left:0px; top:0px;
     }
-  }
+}
